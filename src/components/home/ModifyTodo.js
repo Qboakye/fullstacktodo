@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 function ModifyTodo({ id }) {
-  const url = `http://localhost:8080/todo/${id}`;
+  const url = `https://qtodosbackend.herokuapp.com/todo/${id}`;
   let navigate = useNavigate();
   return (
     <div className="del-edit">
